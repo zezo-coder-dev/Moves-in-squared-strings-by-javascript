@@ -15,7 +15,7 @@ Let's now transform this string!
 
 Symmetry with respect to the main diagonal: diag_1_sym (or diag1Sym or diag-1-sym)
 <code><b>
-diag_1_sym(s) => "aeim\nbfjn\ncgko\ndhlp"
+diag_1_sym(s) => <span style="color: lightgreen">"aeim\nbfjn\ncgko\ndhlp"</span>
 Clockwise rotation 90 degrees: rot_90_clock (or rot90Clock or rot-90-clock)
 rot_90_clock(s) => "miea\nnjfb\nokgc\nplhd"
 selfie_and_diag1(s) (or selfieAndDiag1 or selfie-and-diag1) It is initial string + string obtained by symmetry with respect to the main diagonal.
