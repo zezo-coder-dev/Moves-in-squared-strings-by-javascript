@@ -30,7 +30,7 @@ mnop|dhlp
 </code>
 
 Task:
-Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1
+<font color="green">Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1</font>
 and
 
 high-order function oper(fct, s) where
