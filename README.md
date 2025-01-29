@@ -5,7 +5,7 @@ Moves in squared strings problem in codewars by javascript
   You are given a string of n lines, each substring being n characters long: For example:
 </h3>
 
-```
+```javacript
 s = "abcd\nefgh\nijkl\nmnop"
 ```
 
@@ -62,20 +62,20 @@ map(: This is a method that goes through each item in arr and does something to 
 ```(str, i)```:
 ```str```: This is a variable representing the current string (or word) from the array.  <br />
 ```i```: This represents the index (or position) of the current string in the array, starting from 0 (like counting your toys).  <br />
-```javacript =>```: This is an arrow that means "then do this." It’s like saying, "After I pick a toy, now I’m going to do something with it."  <br />
+```=>```: This is an arrow that means "then do this." It’s like saying, "After I pick a toy, now I’m going to do something with it."  <br />
 str.replace(: This uses the replace method on the current string (str). It’s like saying, "Change something in this toy."
-```javascript /./g```: <br />
-/: Starts a regular expression (a way to find patterns in text).  <br />
-.: Means "any character" (like any letter or number).  <br />
-g: Stands for "global," meaning to find all matches in the string, not just the first one.  <br />
-,: This separates the arguments for the replace method.  <br />
-(_, j):  <br />
-_: This is a placeholder for the first argument (the matched character) that we don’t need, so we use _ to ignore it.  <br />
-j: This is the index of the character we found with the replace method, starting from 0.  <br />
-=>: Again, this means "then do this" for the next part.  <br />
-arr[j][i]: <br />
-arr[j]: This gets the string at index j from the original array. <br />
-[i]: This gets the character at index i from that string. <br />
-So together, arr[j][i] means, "Get the character from the string at position j and from the i position."
-Summary
+```/./g```: <br />
+```/```: Starts a regular expression (a way to find patterns in text).  <br />
+```.```: Means "any character" (like any letter or number).  <br />
+```g```: Stands for "global," meaning to find all matches in the string, not just the first one.  <br />
+```,```: This separates the arguments for the replace method.  <br />
+```(_, j)```:  <br />
+```_```: This is a placeholder for the first argument (the matched character) that we don’t need, so we use _ to ignore it.  <br />
+```j```: This is the index of the character we found with the replace method, starting from 0.  <br />
+```=>```: Again, this means "then do this" for the next part.  <br />
+```arr[j][i]```: <br />
+```arr[j]```: This gets the string at index j from the original array. <br />
+```[i]```: This gets the character at index i from that string. <br />
+So together, ```arr[j][i]``` means, "Get the character from the string at position ```j``` and from the ```i``` position."
+## Summary
 So, this entire line of code is going through each word in the array, looking at each character, and replacing it with a character from a different position, effectively rotating or transforming the strings based on their positions in the array. It’s like taking each toy, looking at it, and then putting a different toy in its place based on a special rule!
