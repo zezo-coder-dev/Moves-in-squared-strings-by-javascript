@@ -5,7 +5,7 @@ Moves in squared strings problem in codewars by javascript
   You are given a string of n lines, each substring being n characters long: For example:
 </h3>
 
-```javacript
+```javascript
 s = "abcd\nefgh\nijkl\nmnop"
 ```
 
