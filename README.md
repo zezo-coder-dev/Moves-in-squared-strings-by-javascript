@@ -14,7 +14,7 @@ s = "abcd\nefgh\nijkl\nmnop"
 Let's now transform this string!
 
 Symmetry with respect to the main diagonal: diag_1_sym (or diag1Sym or diag-1-sym)
-<code><b>
+<code>
 diag_1_sym(s) => <span style="color: lightgreen">"aeim\nbfjn\ncgko\ndhlp"</span>
 Clockwise rotation 90 degrees: rot_90_clock (or rot90Clock or rot-90-clock)
 rot_90_clock(s) => "miea\nnjfb\nokgc\nplhd"
@@ -27,7 +27,7 @@ abcd|aeim
 efgh|bfjn
 ijkl|cgko 
 mnop|dhlp
-</b></code>
+</code>
 
 Task:
 Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1
