@@ -14,7 +14,7 @@ s = "abcd\nefgh\nijkl\nmnop"
 Let's now transform this string!
 
 Symmetry with respect to the main diagonal: diag_1_sym (or diag1Sym or diag-1-sym)
-```
+```javascript
 diag_1_sym(s) => "aeim\nbfjn\ncgko\ndhlp"
 Clockwise rotation 90 degrees: rot_90_clock (or rot90Clock or rot-90-clock)
 rot_90_clock(s) => "miea\nnjfb\nokgc\nplhd"
