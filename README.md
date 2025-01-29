@@ -30,20 +30,20 @@ mnop|dhlp
 ```
 
 Task:
-<font>Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1</font>
+Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1
 and
-<code>
+```javascript
 high-order function oper(fct, s) where
-</code>
+```
 fct is the function of one variable f to apply to the string s (fct will be one of diag_1_sym, rot_90_clock, selfie_and_diag1)
 
 Examples:
-<code>
+```javascript
 s = "abcd\nefgh\nijkl\nmnop"
 oper(diag_1_sym, s) => "aeim\nbfjn\ncgko\ndhlp"
 oper(rot_90_clock, s) => "miea\nnjfb\nokgc\nplhd"
 oper(selfie_and_diag1, s) => "abcd|aeim\nefgh|bfjn\nijkl|cgko\nmnop|dhlp"
-</code>
+```
 
 Notes:
 The form of the parameter fct in oper changes according to the language. You can see each form according to the language in "Your test cases".
@@ -52,14 +52,16 @@ It could be easier to take these katas from number (I) to number (IV)
 
 Bash Note: The output strings should be separated by \r instead of \n. See "Sample Tests".
 
-Breaking It Down:
-return: This means we're giving something back from the function. It’s like saying, "Here's the result!"
-arr: This is a variable that represents an array (a list of things). In our context, it's a list of strings (like words).
-.: This is an operator that lets us use a method on arr. Here, we’re using the map method.
+## In main.js file
+
+## Breaking It Down:
+```return```: This means we're giving something back from the function. It’s like saying, "Here's the result!" <br />
+```arr```: This is a variable that represents an array (a list of things). In our context, it's a list of strings (like words).
+```.```: This is an operator that lets us use a method on arr. Here, we’re using the map method.
 map(: This is a method that goes through each item in arr and does something to it. It’s like saying, "For each toy in my toy box, do this."
-(str, i):
-str: This is a variable representing the current string (or word) from the array.
-i: This represents the index (or position) of the current string in the array, starting from 0 (like counting your toys).
+```(str, i)```:
+```str```: This is a variable representing the current string (or word) from the array.
+```i```: This represents the index (or position) of the current string in the array, starting from 0 (like counting your toys).
 =>: This is an arrow that means "then do this." It’s like saying, "After I pick a toy, now I’m going to do something with it."
 str.replace(: This uses the replace method on the current string (str). It’s like saying, "Change something in this toy."
 /./g:
