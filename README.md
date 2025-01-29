@@ -6,7 +6,7 @@ Moves in squared strings problem in codewars by javascript
 </h3>
 
 ```javacript
-let s = "abcd\nefgh\nijkl\nmnop"
+s = "abcd\nefgh\nijkl\nmnop"
 ```
 
 <p>We will study some transformations of this square of strings.</p>
