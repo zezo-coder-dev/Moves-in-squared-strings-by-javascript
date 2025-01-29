@@ -5,16 +5,16 @@ Moves in squared strings problem in codewars by javascript
   You are given a string of n lines, each substring being n characters long: For example:
 </h3>
 
-<code>
+```
 s = "abcd\nefgh\nijkl\nmnop"
-</code>
+```
 
 <p>We will study some transformations of this square of strings.</p>
 
 Let's now transform this string!
 
 Symmetry with respect to the main diagonal: diag_1_sym (or diag1Sym or diag-1-sym)
-<code>
+```
 diag_1_sym(s) => "aeim\nbfjn\ncgko\ndhlp"
 Clockwise rotation 90 degrees: rot_90_clock (or rot90Clock or rot-90-clock)
 rot_90_clock(s) => "miea\nnjfb\nokgc\nplhd"
@@ -27,7 +27,7 @@ abcd|aeim
 efgh|bfjn
 ijkl|cgko 
 mnop|dhlp
-</code>
+```
 
 Task:
 <font>Write these functions diag_1_sym, rot_90_clock, selfie_and_diag1</font>
