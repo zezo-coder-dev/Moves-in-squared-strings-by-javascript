@@ -8,7 +8,8 @@ Moves in squared strings problem in codewars by javascript
 <code>
 s = "abcd\nefgh\nijkl\nmnop"
 </code>
-We will study some transformations of this square of strings.
+
+<p>We will study some transformations of this square of strings.</p>
 
 Let's now transform this string!
 
